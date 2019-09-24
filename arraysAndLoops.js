@@ -17,3 +17,9 @@ for (i = 0; i < my_schedule.length ; i++) {
     console.log(my_schedule[i])
 
 }
+
+// Assignment 1B - my_schedule
+//Use "for of" loop - console log = These are the days I am available
+for (let i of my_schedule) {
+    console.log(`These are the days I am avaialable: ${i}`);
+ }
