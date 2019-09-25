@@ -21,5 +21,12 @@ for (i = 0; i < my_schedule.length ; i++) {
 // Assignment 1B - my_schedule
 //Use "for of" loop - console log = These are the days I am available
 for (let i of my_schedule) {
-    console.log(`These are the days I am avaialable: ${i}`);
+    console.log('These are the days I am avaialable: ' + [i]);
+
  }
+
+ // Assignment 1C - my_schedule
+//Use "for in" loop - console log = These are the index for the days I am available
+for (let index in my_schedule) {
+console.log('These are the index for the days I am available: ' + index);
+}
