@@ -27,8 +27,8 @@ for (let i of my_schedule) {
 
  // Assignment 1C - my_schedule
 //Use "for in" loop - console log = These are the index for the days I am available
-for (let index in my_schedule) {
-console.log('These are the index for the days I am available: ' + index);
+for (let i in my_schedule) {
+console.log('These are the index for the days I am available: ' + i);
 }
 
 //Assignment 1D - days_of_the_week
@@ -37,3 +37,9 @@ for (let i of days_of_the_week) {
     console.log('These are the days of the week: ' + [i]);
 
  }
+
+ //Assignment 1E - days_of_the_week
+//Use "for in" loop - console log = These are the index for the days of the week
+for (let i in days_of_the_week) {
+    console.log('These are the index for the days of the week: ' + [i]);
+    }
