@@ -30,3 +30,10 @@ for (let i of my_schedule) {
 for (let index in my_schedule) {
 console.log('These are the index for the days I am available: ' + index);
 }
+
+//Assignment 1D - days_of_the_week
+//Use "for of" loop - console log = These are the days of the week
+for (let i of days_of_the_week) {
+    console.log('These are the days of the week: ' + [i]);
+
+ }
